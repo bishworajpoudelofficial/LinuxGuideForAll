@@ -181,3 +181,7 @@ Background Change, Datetime Settings, Wifi, Bluetooth etc.
 | `echo "I LOVE LINUX" > lln.txt` 	  | creates lln.txt if it doesn't exist and writes `I LOVE LINUX` inside lln.txt; if lln.txt exists already, overwrites the content inside it with `I LOVE LINUX` |
 | `echo "LINUX IN NEPALI" >> lin.txt` | creates lin.txt if it doesn't exist and writes `I LOVE LINUX` inside lln.txt; if lin.txt exists already, it appends `LINUX IN NEPALI` to a new line without overwrithing/erasing the previous contents in the file |
 
+## Check Memory Stats and CUP Stats as Linux Admin
+
+- `free` Display amount of free and used memory on the system. `free -m`,  `free -g`  
+- `vmstat` Virtual Memory Stats. `vmstat -a`
